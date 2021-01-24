@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crypto Dictionary</title>
+    <link>https://cryptodictionary.github.io/</link>
+    <description>Recent content on Crypto Dictionary</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://cryptodictionary.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The book</title>
+      <link>https://cryptodictionary.github.io/getit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cryptodictionary.github.io/getit/</guid>
+      <description>Crypto Dictionary is the ultimate desktop dictionary for all things cryptography, for experts and novices alike. Crypto Dictionary is rigorous in its definitions, yet easy to read and laced with humor. Flip to any random page to find something new, interesting, or mind-boggling,
+Crypto Dictionary is available as a DRM-free e-book and soon as printed copy via No Starch Press. It will also be available on the usual book resellers platforms: Amazon, B&amp;amp;N, Penguin, etc.</description>
+    </item>
+    
+    <item>
+      <title>Extra content</title>
+      <link>https://cryptodictionary.github.io/extracontent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cryptodictionary.github.io/extracontent/</guid>
+      <description>The new definitions on this page extend those already in Crypto Dictionary, and might appear in future versions of the book.
+This is work in progress. New definitions will appear regularly.
+Ate pairing The most efficient elliptic-curve pairing known. Ate pairings are thus often used in practice, for example within BLS signatures over BLS curves.
+See BLS (Barreto-Lynn-Scott) curves, BLS (Boneh-Lynn-Shacham) signatures, Pairing.
+Online:
+ https://www.esat.kuleuven.be/cosic/publications/talk-73.pdf  Avalanche Or avalanche effect, the quite archaic criteria that in a block cipher or hash function all input bits should affect all output bits.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://cryptodictionary.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cryptodictionary.github.io/contact/</guid>
+      <description>If you have any question, errata report, or suggestion of new definitions, you can get in touch with the author, Jean-Philippe Aumasson, at jeanphilippe.aumasson@gmail.com.</description>
+    </item>
+    
+  </channel>
+</rss>
