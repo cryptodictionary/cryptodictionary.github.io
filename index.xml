@@ -7,13 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://cryptodictionary.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Book</title>
+      <title>About the Book</title>
       <link>https://cryptodictionary.github.io/thebook/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://cryptodictionary.github.io/thebook/</guid>
-      <description>Crypto Dictionary is the ultimate reference for all things cryptography (including cryptocurrency) for experts and novices alike. Crypto Dictionary is rigorous in its definitions, yet easy to read and laced with humor. Flip to any random page to find something new, interesting, or mind-boggling,
-Crypto Dictionary is available as a DRM-free e-book and soon as printed copy via No Starch Press. It will also be available on the usual book resellers platforms, including Amazon, B&amp;amp;N, Penguin.</description>
+      <description>Crypto Dictionary is rigorous in its definitions, yet easy to read and laced with humor. Flip to any random page to discover something new or mind-boggling, from history trivia to the lastest research concepts.
+Crypto Dictionary is available as a DRM-free e-book and soon as printed copy via No Starch Press. It will also be available on the all major book resellers, including Amazon, B&amp;amp;N, Penguin.
+Get a free sample chapter including the &amp;ldquo;B&amp;rdquo; definitions.</description>
+    </item>
+    
+    <item>
+      <title>About the Author</title>
+      <link>https://cryptodictionary.github.io/theauthor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cryptodictionary.github.io/theauthor/</guid>
+      <description>Jean-Philippe (JP) Aumasson is the Chief Security Officer and cofounder of Taurus Group, a Swiss financial tech company specializing in digital assets infrastructure. As part of this role, he co-designed the leading custody solution for blockchain-based assets used by Swiss financial institutions.
+The author of the acclaimed book Serious Cryptography (No Starch Press, 2017), he speaks regularly at information security and technology conferences.
+JP obtained a PhD from EPFL and worked in the Kudelski Group for 10 years, where held various responsibilities from pay-TV cryptography engineering, security consulting for the private and public sector, technologist, source code auditor, and security researcher.</description>
     </item>
     
     <item>
@@ -28,15 +40,6 @@ Ate pairing The most efficient elliptic-curve pairing known. Ate pairings are th
 See BLS (Barreto-Lynn-Scott) curves, BLS (Boneh-Lynn-Shacham) signatures, Pairing.
 Online:
  https://www.esat.kuleuven.be/cosic/publications/talk-73.pdf  Avalanche Or avalanche effect, the quite archaic criteria that in a block cipher or hash function all input bits should affect all output bits.</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://cryptodictionary.github.io/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://cryptodictionary.github.io/contact/</guid>
-      <description>If you have any question, errata report, or suggestion of new definitions, you can get in touch with the author, Jean-Philippe Aumasson (@veorq), at jeanphilippe.aumasson@gmail.com.</description>
     </item>
     
   </channel>

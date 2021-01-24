@@ -9,13 +9,13 @@
   </url>
   
   <url>
-    <loc>https://cryptodictionary.github.io/extracontent/</loc>
+    <loc>https://cryptodictionary.github.io/theauthor/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://cryptodictionary.github.io/contact/</loc>
+    <loc>https://cryptodictionary.github.io/extracontent/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
