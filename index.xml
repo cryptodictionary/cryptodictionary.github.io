@@ -5,20 +5,24 @@
     <link>https://cryptodictionary.github.io/</link>
     <description>Recent content on Crypto Dictionary</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://cryptodictionary.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    
+	<atom:link href="https://cryptodictionary.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
-      <title>About the Book</title>
+      <title>The Book</title>
       <link>https://cryptodictionary.github.io/thebook/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://cryptodictionary.github.io/thebook/</guid>
       <description>Crypto Dictionary is rigorous in its definitions, yet easy to read and laced with humor. Flip to any random page to discover something new or mind-boggling, from history trivia to the lastest research concepts.
 Crypto Dictionary is available as a DRM-free e-book and soon as printed copy via No Starch Press. It will also be available on the all major book resellers, including Amazon, B&amp;amp;N, Penguin.
-Get a free sample chapter including the &amp;ldquo;B&amp;rdquo; definitions.</description>
+Get a free sample chapter including the &amp;ldquo;B&amp;rdquo; definitions, including for example:</description>
     </item>
     
     <item>
-      <title>About the Author</title>
+      <title>The Author</title>
       <link>https://cryptodictionary.github.io/theauthor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
