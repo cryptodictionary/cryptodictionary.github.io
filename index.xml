@@ -40,10 +40,9 @@ JP obtained a PhD from EPFL and worked in the Kudelski Group for 10 years, where
       <guid>https://cryptodictionary.github.io/extracontent/</guid>
       <description>The new definitions on this page extend those already in Crypto Dictionary, and might appear in future versions of the book.
 This is work in progress. New definitions will appear regularly.
+(For their help, thanks to: Antony Vennard.)
 Ate pairing The most efficient elliptic-curve pairing known. Ate pairings are thus often used in practice, for example within BLS signatures over BLS curves.
-See BLS (Barreto-Lynn-Scott) curves, BLS (Boneh-Lynn-Shacham) signatures, Pairing.
-Online:
- https://www.esat.kuleuven.be/cosic/publications/talk-73.pdf  Avalanche Or avalanche effect, the quite archaic criteria that in a block cipher or hash function all input bits should affect all output bits.</description>
+See BLS (Barreto-Lynn-Scott) curves, BLS (Boneh-Lynn-Shacham) signatures, Pairing.</description>
     </item>
     
   </channel>
