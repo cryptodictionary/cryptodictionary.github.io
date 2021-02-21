@@ -38,7 +38,7 @@
 <meta itemprop="name" content="Extra Content">
 <meta itemprop="description" content="More definitions">
 
-<meta itemprop="wordCount" content="1044">
+<meta itemprop="wordCount" content="1114">
 
 
 
@@ -258,6 +258,14 @@ The night before the duel he wrote a long letter to a friend about his
 latest research, concluding by asking his friend to ask &ldquo;Jacobi or
 Gauss&rdquo; their opinion and concluded «il y aura, j&rsquo;espère, des gens qui
 trouveront leur profit à déchiffrer tout ce gâchis.»</p>
+<h2 id="hopmac">HopMAC</h2>
+<p>A member from the Keccak family missing from our first edition&rsquo;s
+inventory. HopMAC is to KangrarooTwelve (K12) what HMAC is to SHA-2: a MAC
+construction from a hash function, which does <code>HopMAC(K, M, C) =
+K12(K, K12(M, C))</code>, where the inner K12 call returns a 256-bit hash
+and the outer returns an arbitrary length hash. The parameter
+<code>C</code> is a &ldquo;customization string&rdquo;, support as a second argument
+of K12.</p>
 <h2 id="key-commitment">Key commitment</h2>
 <h2 id="military-grade">Military grade</h2>
 <p>Cryptography marketed as military grade if often to crypto what military
