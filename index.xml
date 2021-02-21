@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Crypto Dictionary</title>
@@ -41,8 +41,8 @@ JP obtained a PhD from EPFL and worked in the Kudelski Group for 10 years, where
       <description>The new definitions on this page extend those already in Crypto Dictionary, and might appear in future versions of the book.
 This is work in progress. New definitions will appear regularly.
 (For their help, thanks to: Antony Vennard.)
-Ate pairing The most efficient elliptic-curve pairing known. Ate pairings are thus often used in practice, for example within BLS signatures over BLS curves.
-See BLS (Barreto-Lynn-Scott) curves, BLS (Boneh-Lynn-Shacham) signatures, Pairing.</description>
+אתבש Like Noekeon and ROT13, an involution. About as secure as the latter. Pronounced &amp;ldquo;atbash&amp;rdquo;.
+API Cryptographic APIs have often been confusing and error-prone for cryptographers, and impenetrable for mere mortals. The situation considerably improved since the 2010s, thanks to libraries such as NaCl (and its sister Sodium) and built-in language APIs such as that of Go.</description>
     </item>
     
   </channel>
