@@ -7,7 +7,7 @@
     <title>Extra Content | Crypto Dictionary</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="More definitions">
-    <meta name="generator" content="Hugo 0.68.3" />
+    <meta name="generator" content="Hugo 0.80.0" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -38,11 +38,12 @@
 <meta itemprop="name" content="Extra Content">
 <meta itemprop="description" content="More definitions">
 
-<meta itemprop="wordCount" content="1114">
+<meta itemprop="wordCount" content="1311">
 
 
 
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Extra Content"/>
 <meta name="twitter:description" content="More definitions"/>
 
@@ -189,7 +190,7 @@ size of the underlying finite field.</p>
 y<sup>2</sup> = x<sup>3</sup> + 4.
 It initially targetted a security level of 128 bits, but was later
 estimated to offer less than 120 bits of security.</p>
-<p>Besides Zcash, BLS12-381 is used in other projects&rsquo; zero-knowledge
+<p>Besides Zcash, BLS12-381 is used in other projects' zero-knowledge
 proofs as well as in some BLS signatures, such as those of Ethereum 2.0.</p>
 <p>See <em>Pairing-based cryptography</em>.</p>
 <p>Online:</p>
@@ -214,6 +215,32 @@ differences would never propagate across rows of AES&rsquo;s 4×4-byte square
 state.</p>
 <p>See <em>Diffusion</em>.</p>
 <h2 id="covert-channel">Covert channel</h2>
+<p>Surreptitious transmission of information through a channel not intended
+to transfer information of that sort or in that way, in order to evade
+detection or analysis. Classes of covert channels include</p>
+<ul>
+<li>
+<p>Storage channels, such as hiding data in innocuous-looking usage of
+some network protocol (DNS is a popular choice), steganography
+techniques, or social media services.</p>
+</li>
+<li>
+<p>Timing channels, when for example a system&rsquo;s response time is use to
+signal some information.</p>
+</li>
+<li>
+<p>Behavior channels, where behavior patterns encode some information.
+Port knocking can be seen as such a covert channel.</p>
+</li>
+</ul>
+<p>Covert channels aren&rsquo;t much about cryptography. They don&rsquo;t hide the
+communication content but the fact that communication happens at all.
+They&rsquo;re thus useful in data exfiltration and communication between illegal
+network operatives, for example.</p>
+<p>Online:</p>
+<ul>
+<li><a href="https://fas.org/irp/nsa/rainbow/tg030.htm">https://fas.org/irp/nsa/rainbow/tg030.htm</a></li>
+</ul>
 <h2 id="cryptozoology">Cryptozoology</h2>
 <p>Prefixing some word with &ldquo;crypto&rdquo; doesn&rsquo;t make it legitimate.</p>
 <h2 id="defi">DeFi</h2>
@@ -224,6 +251,12 @@ throughout the computation of a hash function&rsquo;s or block cipher&rsquo;s
 rounds.</p>
 <p>See <em>Confusion</em>.</p>
 <h2 id="distributed-password-authenticated-symmetric-key-encryption-dpase">Distributed password-authenticated symmetric key encryption (DPaSE)</h2>
+<p>Protocol involving multiple servers to allow a user to encrypt and
+decrypt data with keys derived from a single password in a way that
+prevents offline password guessing hides plaintext and ciphertext from
+the servers.
+There is an additional operational cost to run the associated
+infrastructure and mitigate DoS risks.</p>
 <h2 id="eth2">Eth2</h2>
 <p>Ethereum 2.0, the 3-phase evolution of Ethereum towards a more scalable
 platform, with</p>
@@ -267,8 +300,14 @@ and the outer returns an arbitrary length hash. The parameter
 <code>C</code> is a &ldquo;customization string&rdquo;, support as a second argument
 of K12.</p>
 <h2 id="key-commitment">Key commitment</h2>
+<p>The property of authenticated encryption that a ciphertext requires the
+correct key to decrypt to a valid plaintext.</p>
+<p>Online:</p>
+<ul>
+<li><a href="https://eprint.iacr.org/2020/1456.pdf">https://eprint.iacr.org/2020/1456.pdf</a></li>
+</ul>
 <h2 id="military-grade">Military grade</h2>
-<p>Cryptography marketed as military grade if often to crypto what military
+<p>Cryptography marketed as military grade is often to crypto what military
 music is to music.</p>
 <h2 id="miller-loop">Miller loop</h2>
 <p>The core algorithm of elliptic curve pairings used in crypto (Ate, Eta,
@@ -282,7 +321,7 @@ Tate, Weil).</p>
 problem by solving a discrete logarithm in an integer multiplicative
 group and translating the solution back to elliptic-curve land.</p>
 <p>This only works for certain curves (the <em>supersingular</em> ones).</p>
-<p>The &ldquo;MOV&rdquo; abbreviation is from the authors&rsquo; names.</p>
+<p>The &ldquo;MOV&rdquo; abbreviation is from the authors' names.</p>
 <p>Online:</p>
 <ul>
 <li><a href="https://www.dima.unige.it/~morafe/MaterialeCTC/p80-menezes.pdf">https://www.dima.unige.it/~morafe/MaterialeCTC/p80-menezes.pdf</a></li>
@@ -299,7 +338,6 @@ in clear or encrypted, but always signed by the pseudonymous identity.</p>
 <ul>
 <li><a href="https://pdos.csail.mit.edu/papers/nymserver:ccs5.pdf">https://pdos.csail.mit.edu/papers/nymserver:ccs5.pdf</a></li>
 </ul>
-<h2 id="pass-password-authenticated-secret-sharing">PASS (password-authenticated secret sharing)</h2>
 <h2 id="rot13">ROT13</h2>
 <p>Military-grade encryption, if you live in the year -60 BC.</p>
 <h2 id="sextnfs-special-extender-tower-nfs">SexTNFS (special extender tower NFS)</h2>
@@ -315,6 +353,11 @@ downgraded as well.</p>
 <h2 id="tezos">Tezos</h2>
 <p>Blockchain with a funny smart contract language (Michelson), and a lot
 of Ocaml.</p>
+<h2 id="threshold-password-authenticated-secret-sharing-tpass">Threshold password-authenticated secret sharing (TPASS)</h2>
+<p>Online:</p>
+<ul>
+<li><a href="https://eprint.iacr.org/2010/561.pdf">https://eprint.iacr.org/2010/561.pdf</a></li>
+</ul>
 <h2 id="verifiable-timed-signature">Verifiable timed signature</h2>
 <h2 id="yarrow">Yarrow</h2>
 <p>A pseudorandom generator that was notably used in Apple&rsquo;s OSX/macOS
