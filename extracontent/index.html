@@ -7,7 +7,7 @@
     <title>Extra Content | Crypto Dictionary</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="More definitions">
-    <meta name="generator" content="Hugo 0.68.3" />
+    <meta name="generator" content="Hugo 0.80.0" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -38,11 +38,12 @@
 <meta itemprop="name" content="Extra Content">
 <meta itemprop="description" content="More definitions">
 
-<meta itemprop="wordCount" content="1311">
+<meta itemprop="wordCount" content="1458">
 
 
 
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Extra Content"/>
 <meta name="twitter:description" content="More definitions"/>
 
@@ -138,6 +139,12 @@ Dictionary</a>, and might appear in
 future versions of the book.</p>
 <p>This is work in progress. New definitions will appear regularly.</p>
 <p>(For their help, thanks to: Antony Vennard.)</p>
+<h2 id="0">0</h2>
+<p>ePrint crasher.</p>
+<p>Online:</p>
+<ul>
+<li><a href="https://eprint.iacr.org/2021/323">https://eprint.iacr.org/2021/323</a></li>
+</ul>
 <h2 id="אתבש">אתבש</h2>
 <p>Like Noekeon and ROT13, an involution.
 About as secure as the latter.
@@ -148,6 +155,19 @@ cryptographers, and impenetrable for mere mortals.
 The situation considerably improved since the 2010s, thanks to libraries
 such as NaCl (and its sister Sodium) and built-in language APIs such as
 that of Go.</p>
+<h2 id="arleas">ARLEAS</h2>
+<p>Abuse resistant lawful enforcement access systems, or lawful
+interception that cryptographers might live with, thanks to lossy
+encryption, zero-knowledge proofs, and a global immutable ledger.</p>
+<p>The paper formalizing ARLEAS demonstrates thet &ldquo;cryptographic
+implausibility&rdquo; of retrospective abuse-resistant interception, or access
+to communication content that predates a warrant&rsquo;s issuance.
+It&rsquo;s because this would require that all participants be at
+any time potentially subject to interception.</p>
+<p>Online:</p>
+<ul>
+<li><a href="https://eprint.iacr.org/2021/321">https://eprint.iacr.org/2021/321</a></li>
+</ul>
 <h2 id="ate-pairing">Ate pairing</h2>
 <p>The most efficient elliptic-curve pairing known.
 Ate pairings are thus often used in practice, for example within BLS
@@ -189,7 +209,7 @@ size of the underlying finite field.</p>
 y<sup>2</sup> = x<sup>3</sup> + 4.
 It initially targetted a security level of 128 bits, but was later
 estimated to offer less than 120 bits of security.</p>
-<p>Besides Zcash, BLS12-381 is used in other projects&rsquo; zero-knowledge
+<p>Besides Zcash, BLS12-381 is used in other projects' zero-knowledge
 proofs as well as in some BLS signatures, such as those of Ethereum 2.0.</p>
 <p>See <em>Pairing-based cryptography</em>.</p>
 <p>Online:</p>
@@ -320,7 +340,7 @@ Tate, Weil).</p>
 problem by solving a discrete logarithm in an integer multiplicative
 group and translating the solution back to elliptic-curve land.</p>
 <p>This only works for certain curves (the <em>supersingular</em> ones).</p>
-<p>The &ldquo;MOV&rdquo; abbreviation is from the authors&rsquo; names.</p>
+<p>The &ldquo;MOV&rdquo; abbreviation is from the authors' names.</p>
 <p>Online:</p>
 <ul>
 <li><a href="https://www.dima.unige.it/~morafe/MaterialeCTC/p80-menezes.pdf">https://www.dima.unige.it/~morafe/MaterialeCTC/p80-menezes.pdf</a></li>
@@ -337,6 +357,7 @@ in clear or encrypted, but always signed by the pseudonymous identity.</p>
 <ul>
 <li><a href="https://pdos.csail.mit.edu/papers/nymserver:ccs5.pdf">https://pdos.csail.mit.edu/papers/nymserver:ccs5.pdf</a></li>
 </ul>
+<h2 id="proof-of-publication">Proof of publication</h2>
 <h2 id="rot13">ROT13</h2>
 <p>Military-grade encryption, if you live in the year -60 BC.</p>
 <h2 id="sextnfs-special-extender-tower-nfs">SexTNFS (special extender tower NFS)</h2>
@@ -348,7 +369,19 @@ BLS12-381, whose estimated 128-bit security level was later slightly
 downgraded as well.</p>
 <p>See <em>BLS (Barreto-Lynn-Scott) curves</em>.</p>
 <h2 id="sphinx">SPHINX</h2>
+<p>A message format designed to be used in mixnet-based anonymity networks,
+with provable security guarantees (in the random oracle model).</p>
+<p>Online:</p>
+<ul>
+<li><a href="https://www.freehaven.net/anonbib/cache/DBLP:conf/sp/DanezisG09.pdf">https://www.freehaven.net/anonbib/cache/DBLP:conf/sp/DanezisG09.pdf</a></li>
+</ul>
 <h2 id="template-attack">Template attack</h2>
+<p>A class of power analysis attacks where the attacker can first play with
+the attacked device, controlling all values including secret keys, in
+order to built a statistical model of the correlations between values
+and measurements.
+The actual attack then leverages this model, or template, to extract
+information from physical measurements.</p>
 <h2 id="tezos">Tezos</h2>
 <p>Blockchain with a funny smart contract language (Michelson), and a lot
 of Ocaml.</p>

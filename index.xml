@@ -5,11 +5,7 @@
     <link>https://cryptodictionary.github.io/</link>
     <description>Recent content on Crypto Dictionary</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://cryptodictionary.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://cryptodictionary.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Book</title>
       <link>https://cryptodictionary.github.io/thebook/</link>
@@ -41,8 +37,10 @@ JP obtained a PhD from EPFL and worked in the Kudelski Group for 10 years, where
       <description>The new definitions on this page extend those already in Crypto Dictionary, and might appear in future versions of the book.
 This is work in progress. New definitions will appear regularly.
 (For their help, thanks to: Antony Vennard.)
-אתבש Like Noekeon and ROT13, an involution. About as secure as the latter. Pronounced &amp;ldquo;atbash&amp;rdquo;.
-API Cryptographic APIs have often been confusing and error-prone for cryptographers, and impenetrable for mere mortals. The situation considerably improved since the 2010s, thanks to libraries such as NaCl (and its sister Sodium) and built-in language APIs such as that of Go.</description>
+0 ePrint crasher.
+Online:
+ https://eprint.iacr.org/2021/323  אתבש Like Noekeon and ROT13, an involution. About as secure as the latter. Pronounced &amp;ldquo;atbash&amp;rdquo;.
+API Cryptographic APIs have often been confusing and error-prone for cryptographers, and impenetrable for mere mortals.</description>
     </item>
     
   </channel>
