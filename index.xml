@@ -5,7 +5,11 @@
     <link>https://cryptodictionary.github.io/</link>
     <description>Recent content on Crypto Dictionary</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://cryptodictionary.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    
+	<atom:link href="https://cryptodictionary.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>The Book</title>
       <link>https://cryptodictionary.github.io/thebook/</link>
