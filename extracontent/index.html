@@ -38,7 +38,7 @@
 <meta itemprop="name" content="Extra Content">
 <meta itemprop="description" content="More definitions">
 
-<meta itemprop="wordCount" content="1531">
+<meta itemprop="wordCount" content="1749">
 
 
 
@@ -367,7 +367,28 @@ in clear or encrypted, but always signed by the pseudonymous identity.</p>
 <ul>
 <li><a href="https://pdos.csail.mit.edu/papers/nymserver:ccs5.pdf">https://pdos.csail.mit.edu/papers/nymserver:ccs5.pdf</a></li>
 </ul>
+<h2 id="pedersen-commitment">Pedersen commitment</h2>
+<p>A commitment scheme based on a hash function using algebraic operations
+rather than bits-mixing operations like most hash functions.
+Thanks to the algebraic structure of the hash, it can be used to create
+commitment schemes that are homomorphic (additively) and provably secure
+under the decisional Diffie-Hellman assumption.</p>
+<h2 id="poseidon">Poseidon</h2>
+<p>A hash function that is zero-knowledge proof-friendly, thanks to its
+compact representation as a circuit.</p>
+<h2 id="proof-of-possession">Proof of possession</h2>
+<p>Part of a protocol that requires knowledge of secret key (KOSK) evidence
+in order to be secure.
+The actual proof of possession is typically as simple as a signature.</p>
+<h2 id="proof-of-proof-of-work">Proof of proof of work</h2>
+<p>A technique to verify proof-of-work chains of blocks with sublinear
+complexity in the length of the chain.</p>
+<p>Online:</p>
+<ul>
+<li><a href="http://fc16.ifca.ai/bitcoin/papers/KLS16.pdf">http://fc16.ifca.ai/bitcoin/papers/KLS16.pdf</a></li>
+</ul>
 <h2 id="proof-of-publication">Proof of publication</h2>
+<p>Advanced hashing.</p>
 <h2 id="pss-probabilistic-signature-scheme">PSS (probabilistic signature scheme)</h2>
 <p>Signature scheme designed to develop randomized, provably-secure RSA
 signatures, standardized in PKCS#1 v2.1.
@@ -400,12 +421,16 @@ information from physical measurements.</p>
 <h2 id="tezos">Tezos</h2>
 <p>Blockchain with a funny smart contract language (Michelson), and a lot
 of Ocaml.</p>
-<h2 id="threshold-password-authenticated-secret-sharing-tpass">Threshold password-authenticated secret sharing (TPASS)</h2>
+<h2 id="verifiable-timed-signature">Verifiable timed signature</h2>
+<p>Signatures that can&rsquo;t be verified before a certain amount of time.
+Introducing a notion of time to a blockchain (with essentially only
+block indexes a a clock) can help create better blockchain-based payment
+channels and safer multi-party computation protocols for on-chain
+applications.</p>
 <p>Online:</p>
 <ul>
-<li><a href="https://eprint.iacr.org/2010/561.pdf">https://eprint.iacr.org/2010/561.pdf</a></li>
+<li><a href="https://eprint.iacr.org/2020/1563.pdf">https://eprint.iacr.org/2020/1563.pdf</a></li>
 </ul>
-<h2 id="verifiable-timed-signature">Verifiable timed signature</h2>
 <h2 id="yarrow">Yarrow</h2>
 <p>A pseudorandom generator that was notably used in Apple&rsquo;s OSX/macOS
 until Apple replaced it by its successor Fortuna.</p>
@@ -416,6 +441,19 @@ until Apple replaced it by its successor Fortuna.</p>
 <p>Online:</p>
 <ul>
 <li><a href="https://www.schneier.com/wp-content/uploads/2016/02/paper-yarrow.pdf">https://www.schneier.com/wp-content/uploads/2016/02/paper-yarrow.pdf</a></li>
+</ul>
+<h2 id="zk-rollup">ZK-Rollup</h2>
+<p>A layer-2 protocol for Ethereum that uses SNARKs to improve
+performance (as in, transactions per second).
+ZK-Rollup works by making computations
+off-chain and storage off-chain and creating a zero-knowledge proof of
+validity of a transaction, which is verified by a smart contract.</p>
+<p>The main ZK-Rollup deployment (at the time of writing) is zkSync.</p>
+<p>Online:</p>
+<ul>
+<li><a href="https://ethereum.org/en/developers/docs/layer-2-scaling/">https://ethereum.org/en/developers/docs/layer-2-scaling/</a></li>
+<li><a href="https://zksync.io/">https://zksync.io/</a></li>
+<li><a href="https://medium.com/starkware/validity-proofs-vs-fraud-proofs-strike-back-4d0bf90eed15">https://medium.com/starkware/validity-proofs-vs-fraud-proofs-strike-back-4d0bf90eed15</a></li>
 </ul>
 
       </div>
