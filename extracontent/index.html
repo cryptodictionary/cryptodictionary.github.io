@@ -38,7 +38,7 @@
 <meta itemprop="name" content="Extra Content">
 <meta itemprop="description" content="More definitions">
 
-<meta itemprop="wordCount" content="1749">
+<meta itemprop="wordCount" content="1752">
 
 
 
@@ -443,16 +443,17 @@ until Apple replaced it by its successor Fortuna.</p>
 <li><a href="https://www.schneier.com/wp-content/uploads/2016/02/paper-yarrow.pdf">https://www.schneier.com/wp-content/uploads/2016/02/paper-yarrow.pdf</a></li>
 </ul>
 <h2 id="zk-rollup">ZK-Rollup</h2>
-<p>A layer-2 protocol for Ethereum that uses SNARKs to improve
-performance (as in, transactions per second).
-ZK-Rollup works by making computations
-off-chain and storage off-chain and creating a zero-knowledge proof of
-validity of a transaction, which is verified by a smart contract.</p>
-<p>The main ZK-Rollup deployment (at the time of writing) is zkSync.</p>
+<p>Class of layer-2 protocols over blockchains that use zk-SNARKs to create
+validity proofs recorded on the blockchain, while keeping the actual
+computation off-chain, yet data on-chain.
+The rollups that don&rsquo;t use zk-SNARKs are Optimistic Rollups and use a
+different validation mechanism.
+Rollups that store data on-chain are usually not called rollups, but
+&ldquo;plasma&rdquo; or &ldquo;validia&rdquo; protocols.</p>
 <p>Online:</p>
 <ul>
 <li><a href="https://ethereum.org/en/developers/docs/layer-2-scaling/">https://ethereum.org/en/developers/docs/layer-2-scaling/</a></li>
-<li><a href="https://zksync.io/">https://zksync.io/</a></li>
+<li><a href="https://l2beat.com/">https://l2beat.com/</a></li>
 <li><a href="https://medium.com/starkware/validity-proofs-vs-fraud-proofs-strike-back-4d0bf90eed15">https://medium.com/starkware/validity-proofs-vs-fraud-proofs-strike-back-4d0bf90eed15</a></li>
 </ul>
 
