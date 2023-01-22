@@ -7,7 +7,7 @@
     <title>Extra Content | Crypto Dictionary</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="More definitions">
-    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="generator" content="Hugo 0.102.1" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -33,17 +33,15 @@
     <meta property="og:title" content="Extra Content" />
 <meta property="og:description" content="More definitions" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://cryptodictionary.github.io/extracontent/" />
+<meta property="og:url" content="https://cryptodictionary.github.io/extracontent/" /><meta property="article:section" content="" />
+
 <meta property="og:site_name" content="Crypto Dictionary" />
+
 <meta itemprop="name" content="Extra Content">
 <meta itemprop="description" content="More definitions">
 
-<meta itemprop="wordCount" content="1752">
-
-
-
-<meta itemprop="keywords" content="" />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="wordCount" content="1883">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Extra Content"/>
 <meta name="twitter:description" content="More definitions"/>
 
@@ -138,7 +136,7 @@
 Dictionary</a>, and might appear in
 future versions of the book.</p>
 <p>This is work in progress. New definitions will appear regularly.</p>
-<p>(For their help, thanks to: Antony Vennard.)</p>
+<p>(For their help, thanks to: Antony Vennard, Peter Gutmann.)</p>
 <h2 id="0">0</h2>
 <p>ePrint crasher.</p>
 <p>Online:</p>
@@ -159,7 +157,7 @@ that of Go.</p>
 <p>Abuse resistant lawful enforcement access systems, or lawful
 interception that cryptographers might live with, thanks to lossy
 encryption, zero-knowledge proofs, and a global immutable ledger.</p>
-<p>The paper formalizing ARLEAS demonstrates thet &ldquo;cryptographic
+<p>The paper formalizing ARLEAS demonstrates that &ldquo;cryptographic
 implausibility&rdquo; of retrospective abuse-resistant interception, or access
 to communication content that predates a warrant&rsquo;s issuance.
 It&rsquo;s because this would require that all participants be at
@@ -209,7 +207,7 @@ size of the underlying finite field.</p>
 y<sup>2</sup> = x<sup>3</sup> + 4.
 It initially targetted a security level of 128 bits, but was later
 estimated to offer less than 120 bits of security.</p>
-<p>Besides Zcash, BLS12-381 is used in other projects' zero-knowledge
+<p>Besides Zcash, BLS12-381 is used in other projects&rsquo; zero-knowledge
 proofs as well as in some BLS signatures, such as those of Ethereum 2.0.</p>
 <p>See <em>Pairing-based cryptography</em>.</p>
 <p>Online:</p>
@@ -282,6 +280,8 @@ prevents offline password guessing hides plaintext and ciphertext from
 the servers.
 There is an additional operational cost to run the associated
 infrastructure and mitigate DoS risks.</p>
+<h2 id="eap">EAP</h2>
+<p>The turducken of authentication protocols.</p>
 <h2 id="eth2">Eth2</h2>
 <p>Ethereum 2.0, the 3-phase evolution of Ethereum towards a more scalable
 platform, with</p>
@@ -346,7 +346,7 @@ Tate, Weil).</p>
 problem by solving a discrete logarithm in an integer multiplicative
 group and translating the solution back to elliptic-curve land.</p>
 <p>This only works for certain curves (the <em>supersingular</em> ones).</p>
-<p>The &ldquo;MOV&rdquo; abbreviation is from the authors' names.</p>
+<p>The &ldquo;MOV&rdquo; abbreviation is from the authors&rsquo; names.</p>
 <p>Online:</p>
 <ul>
 <li><a href="https://www.dima.unige.it/~morafe/MaterialeCTC/p80-menezes.pdf">https://www.dima.unige.it/~morafe/MaterialeCTC/p80-menezes.pdf</a></li>
@@ -355,6 +355,11 @@ group and translating the solution back to elliptic-curve land.</p>
 <p>Collective signature schemes often implemented on-chain (typically via
 Bitcoin scripts, or smart contracts), whose difference with threshold
 signatures is that they reveal the identities of individual signers.</p>
+<h2 id="nonrepudiation">Nonrepudiation</h2>
+<p>A legal-sounding term invented by standards group members without
+consultation with lawyers to describe a service that crypto can&rsquo;t
+provide.  X.509 eventually replaced it with &ldquo;content commitment&rdquo;, but by
+then the damage had been done.</p>
 <h2 id="nym-server">Nym server</h2>
 <p>Short for pseudonymous remailer server.<br>
 Nym servers serve to send pseudonymous email by relaying email messages
@@ -378,8 +383,11 @@ under the decisional Diffie-Hellman assumption.</p>
 compact representation as a circuit.</p>
 <h2 id="proof-of-possession">Proof of possession</h2>
 <p>Part of a protocol that requires knowledge of secret key (KOSK) evidence
-in order to be secure.
-The actual proof of possession is typically as simple as a signature.</p>
+in order to be secure. The actual proof of possession is typically as
+simple as a signature. Less sensible proofs of possession include
+sending your private key to the other party. CMP, the Certificate
+Mismanagement Protocol, actually does this, or at least provides for it
+in the protocol.</p>
 <h2 id="proof-of-proof-of-work">Proof of proof of work</h2>
 <p>A technique to verify proof-of-work chains of blocks with sublinear
 complexity in the length of the chain.</p>
@@ -388,14 +396,14 @@ complexity in the length of the chain.</p>
 <li><a href="http://fc16.ifca.ai/bitcoin/papers/KLS16.pdf">http://fc16.ifca.ai/bitcoin/papers/KLS16.pdf</a></li>
 </ul>
 <h2 id="proof-of-publication">Proof of publication</h2>
-<p>Advanced hashing.</p>
+<p>Advanced hashing. Something to request grant money.</p>
 <h2 id="pss-probabilistic-signature-scheme">PSS (probabilistic signature scheme)</h2>
 <p>Signature scheme designed to develop randomized, provably-secure RSA
 signatures, standardized in PKCS#1 v2.1.
 But RSA-PSS is about as secure as the simplistic deterministic full
 domain hash (RSA-FDH), even when PSS is not randomized.</p>
 <h2 id="rot13">ROT13</h2>
-<p>Military-grade encryption, if you live in the year -60 BC.</p>
+<p>Military-grade encryption, if you live in the year 60 BC.</p>
 <h2 id="sextnfs-special-extender-tower-nfs">SexTNFS (special extender tower NFS)</h2>
 <p>A variant of the number field sieve (NFS) algorithm to compute discrete
 logarithms, found to reduce the security level of
@@ -404,6 +412,13 @@ This observation prompted the Zcash project to switch to another curve,
 BLS12-381, whose estimated 128-bit security level was later slightly
 downgraded as well.</p>
 <p>See <em>BLS (Barreto-Lynn-Scott) curves</em>.</p>
+<h2 id="shamirs-law">Shamir&rsquo;s law</h2>
+<p>Crypto is bypassed, not penetrated.</p>
+<p>Full Shamir quote: &ldquo;Cryptography is usually bypassed. I am not aware of
+any major world-class security system employing cryptography in which
+the hackers penetrated the system by actually going through the
+cryptanalysis [&hellip;] usually there are much simpler ways of penetrating
+the security system&rdquo;.</p>
 <h2 id="sphinx">SPHINX</h2>
 <p>A message format designed to be used in mixnet-based anonymity networks,
 with provable security guarantees (in the random oracle model).</p>
@@ -435,7 +450,12 @@ applications.</p>
 <p>A pseudorandom generator that was notably used in Apple&rsquo;s OSX/macOS
 until Apple replaced it by its successor Fortuna.</p>
 <blockquote>
-<p>Yarrow is a owering perennial with distintive at ower heads and lay leaves, like Queen Anne&rsquo;s Lae or wild arrot. Yarrow stalks have been used for divination in China sine the Hsia dynasty, in the seond millennium B.C.E. The fortuneteller would divide a set of 50 stalks into piles, then repeatedly use modulo arithmetic to generate two bits of random information (but with a nonuniform distribution)</p>
+<p>Yarrow is a owering perennial with distinctive at flower heads and lay
+leaves, like Queen Anne&rsquo;s Lae or wild arrot. Yarrow stalks have been
+used for divination in China sine the Hsia dynasty, in the seond
+millennium B.C.E. The fortuneteller would divide a set of 50 stalks into
+piles, then repeatedly use modulo arithmetic to generate two bits of
+random information (but with a nonuniform distribution)</p>
 </blockquote>
 <p>See <em>Fortuna</em>.</p>
 <p>Online:</p>

@@ -36,10 +36,10 @@ JP obtained a PhD from EPFL and worked in the Kudelski Group for 10 years, where
       <guid>https://cryptodictionary.github.io/extracontent/</guid>
       <description>The new definitions on this page extend those already in Crypto Dictionary, and might appear in future versions of the book.
 This is work in progress. New definitions will appear regularly.
-(For their help, thanks to: Antony Vennard.)
+(For their help, thanks to: Antony Vennard, Peter Gutmann.)
 0 ePrint crasher.
 Online:
- https://eprint.iacr.org/2021/323  אתבש Like Noekeon and ROT13, an involution. About as secure as the latter. Pronounced &amp;ldquo;atbash&amp;rdquo;.
+https://eprint.iacr.org/2021/323 אתבש Like Noekeon and ROT13, an involution. About as secure as the latter. Pronounced &amp;ldquo;atbash&amp;rdquo;.
 API Cryptographic APIs have often been confusing and error-prone for cryptographers, and impenetrable for mere mortals.</description>
     </item>
     
